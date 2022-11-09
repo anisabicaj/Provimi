@@ -59,24 +59,37 @@ table {
 	width:100%;
 	height:100vh;
 	background: url(../assets/background1.svg) no-repeat center;
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
-	align-items:center;
-	justify-content: center;
-	flex-direction: column;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	
   }
 
   form {
 	background:#fff;
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
 	width: 653px;
-        height: 63px;
-        left: 560px;
-        top: 389px;
+    height: 63px;
+    left: 560px;
+    top: 389px;
   }
 
   form input {
-	flex: 1;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
 	border: none;
 	outline:none;
 	width: 500px;
@@ -86,15 +99,19 @@ table {
 	background: #FFFFFF;
 	text-align: center;
 	color: #999999;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 2.8px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 2.8px;
 	font-family: 'Josefin Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-       line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
   }
 
   form button {
@@ -110,7 +127,10 @@ table {
     font-weight: 400;
     font-size: 14px;
     line-height: 186%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
     text-align: center;
     letter-spacing: 1.4px;
     text-transform: uppercase;
@@ -121,9 +141,14 @@ table {
     width: 800px;
     height: 356px;
     margin: 80px 292px 64px 292px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 /*
   .content-text {
@@ -146,8 +171,12 @@ table {
 	font-weight: 700;
 	font-size: 48px;
 	line-height: 54%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	text-align: center;
 	letter-spacing: 4.8px;
 	text-transform: uppercase;
@@ -165,8 +194,12 @@ table {
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 118%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	text-align: center;
 	letter-spacing: 6.82px;
 	color: #FFFFFF;
@@ -174,26 +207,33 @@ table {
 	padding-bottom:40px;
 	}
 
-         nav {
+    nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	width: 100%;
 	background-color:#5474FD;
-        height: 80px;
-        left: 2px;
-        top: 740px;
-         }
+    height: 80px;
+    left: 2px;
+    top: 740px;
+   }
 
-        .menu {
+   .menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-        }
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+   }
   
-        .nav-item {
+   .nav-item {
 	padding: 5px;
-         }
+   }
 
-        .logo {
+  .logo {
 	width: 186px;
 	height: 26px;
 	left: 13px;
@@ -203,8 +243,12 @@ table {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 108%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	letter-spacing: 2.4px;
 	text-transform: uppercase;
 	color: #FFFFFF;
@@ -222,14 +266,18 @@ table {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 186%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	padding-top:40px;
 	}
 
-        
+
 	.hero {
 		background: url(../assets/background2.svg) no-repeat center;
 	}
@@ -239,10 +287,17 @@ table {
 		padding-right: 126px;
 		max-width: 100%;
 		float: left;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: space-between;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	  }
 	  
 	  .hero {
@@ -274,9 +329,13 @@ table {
 		height: 26px;
 		left: 330px;
 		top: 212px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		align-items: center;
-                color: #FFFFFF;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+        color: #FFFFFF;
 		padding-bottom:50px;
 	  }
 	  
@@ -292,10 +351,14 @@ table {
 		height: 158px;
 		left: 330px;
 		top: 288px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		letter-spacing: 1.6px;
-                color: #E8E8E8;
+        color: #E8E8E8;
 	  }
 
 	   .button {
@@ -310,8 +373,12 @@ table {
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 162%;
+		display:-webkit-box;
+		display:-ms-flexbox;
 		display:flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		text-align: center;
 		text-decoration: none;
 		letter-spacing: 1.2px;
@@ -320,9 +387,8 @@ table {
 		padding-left:43px;
 
 	  }
-	  
 
-           .booking {
+	  .booking {
 		background: url(../assets/house.svg) no-repeat center;
 		float: left;
 		width: 100%;
@@ -332,11 +398,18 @@ table {
 	  .card {
 		background-color: rgba(0, 0, 0, 0.7);
 		padding: 30px 20px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		max-width: 510px;
 		min-height: 290px;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 		color: white;
 		margin-left:255px;
 		margin-top:240px;
@@ -352,8 +425,12 @@ table {
 		font-weight: 400;
 		font-size: 20px;
 		line-height: 130%;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		letter-spacing: 1.5px;
 		color: #E8E8E8;
 		margin-bottom:15px;
@@ -372,8 +449,14 @@ table {
 		line-height: 130%;
 		/* identical to box height, or 130% */
 
+		display: -webkit-box;
+
+		display: -ms-flexbox;
+
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		text-transform: uppercase;
 
 		color: #FFFFFF;
@@ -394,8 +477,14 @@ table {
 		line-height: 162%;
 		/* or 162% */
 
+		display: -webkit-box;
+
+		display: -ms-flexbox;
+
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 
 		color: #E8E8E8;
 	  }
@@ -416,8 +505,12 @@ table {
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 162%;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		text-align: center;
 		letter-spacing: 1.2px;
 		text-transform: uppercase;
@@ -438,18 +531,24 @@ table {
 	  .card_spain {
 		background-color: rgba(0, 0, 0, 0.7);
 		padding: 30px 20px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		max-width: 510px;
 		min-height: 290px;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 		color: white;
 		margin-left:800px;
 		margin-top:240px;
-
 	  }
 
-           .tourist_section {
+	  .tourist_section {
 		background: url(../assets/man.svg) no-repeat center;
 		float: left;
 		width: 100%;
@@ -460,11 +559,18 @@ table {
 	  .card_tourist {
 		background-color: rgba(0, 0, 0, 0.7);
 		padding: 30px 20px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		max-width: 600px;
 		min-height: 285px;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 		color: white;
 		margin-left:690px;
 		margin-bottom:900px;
@@ -477,6 +583,8 @@ table {
 		margin-left:246px;
 	  }
 
+
+	
 
 	
 
