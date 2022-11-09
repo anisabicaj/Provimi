@@ -584,4 +584,43 @@ table {
 	  }
 
 
+	  @media (max-width:767px)  {
+		 .container {
+		  flex-direction:column;
+		  align-items:flex-start;
+		}
+		.hero__text h1 {
+		  font-size:20px;
+		}
+
+		.hero {
+		  padding-top:0; 
+		}
+
+		.container-inner {
+		  padding-left:0;
+		  padding-right:0;
+		}
+		.hero_text p {
+		  padding-right:0;
+		}
+	  }
+	  
+	  @media (min-width:768px) and (max-width:990)
+	  {
+		.hero{
+		  padding-top:40px;
+		}
+	  
+		.container--inner {
+		  padding-right:0;
+		  padding-left:0;
+		}
+	  
+		.hero__text {
+		  width:100%;
+		}
+	  }
+
+
 	
