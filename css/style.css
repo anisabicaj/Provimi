@@ -70,9 +70,9 @@ table {
 	background:#fff;
 	display:flex;
 	width: 653px;
-    height: 63px;
-    left: 560px;
-    top: 389px;
+        height: 63px;
+        left: 560px;
+        top: 389px;
   }
 
   form input {
@@ -87,14 +87,14 @@ table {
 	text-align: center;
 	color: #999999;
 	display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 2.8px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 2.8px;
 	font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+       line-height: 26px;
   }
 
   form button {
@@ -179,21 +179,21 @@ table {
 	justify-content: space-around;
 	width: 100%;
 	background-color:#5474FD;
-    height: 80px;
-    left: 2px;
-    top: 740px;
-   }
+        height: 80px;
+        left: 2px;
+        top: 740px;
+         }
 
-   .menu {
+        .menu {
 	display: flex;
 	justify-content: space-between;
-   }
+        }
   
-   .nav-item {
+        .nav-item {
 	padding: 5px;
-   }
+         }
 
-  .logo {
+        .logo {
 	width: 186px;
 	height: 26px;
 	left: 13px;
@@ -228,3 +228,96 @@ table {
 	color: #FFFFFF;
 	padding-top:40px;
 	}
+
+        
+	.hero {
+		background: url(../assets/background2.svg) no-repeat center;
+	}
+
+	.container--inner {
+		padding-left: 32px;
+		padding-right: 126px;
+		max-width: 100%;
+		float: left;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	  }
+	  
+	  .hero {
+		float: left;
+		width: 100%;
+		padding-top: 100px;
+	  }
+	  
+	  .hero__text {
+		width: 646px;
+		padding-left:250px;
+	  }
+	  
+	  .hero__image {
+		width: calc(100% - 646px);
+		padding-left: 150px;
+	  }
+	  
+	  .hero__text h1 {
+		font-family: 'Aleo';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 72%;
+		letter-spacing: -0.03em;
+		color: #000000;
+		margin-bottom: 19px;
+		width: 288px;
+		height: 26px;
+		left: 330px;
+		top: 212px;
+		display: flex;
+		align-items: center;
+                color: #FFFFFF;
+		padding-bottom:50px;
+	  }
+	  
+	  .hero__text p {
+		font-family: 'Josefin Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 126%;
+		margin-bottom: 47px;
+		padding-right: 160px;
+		width: 560px;
+		height: 158px;
+		left: 330px;
+		top: 288px;
+		display: flex;
+		align-items: center;
+		letter-spacing: 1.6px;
+                color: #E8E8E8;
+	  }
+
+	   .button {
+		background: #496BFE;
+		width:228px;;
+		height: 63px;
+		left: 500px;
+		top: 0px;
+		cursor:pointer;
+		font-family: 'Aleo';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 162%;
+		display:flex;
+		align-items: center;
+		text-align: center;
+		text-decoration: none;
+		letter-spacing: 1.2px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		padding-left:43px;
+
+	  }
+	  
